@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berimbolo Security - Services</title>
+    <link rel="stylesheet" href="./css/servicesPageStyle.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+
+    <header id="navigation">
+        <nav id="navbar">
+            <a href="index.html" id="logo">Berimbolo Security</a>
+            <ul>
+                <li><a href="index.html" class="home tab">Home</a></li>
+                <li><a href="aboutPage.html" class="about tab">About</a></li>
+                <li><a href="servicesPage.html" class="service tab">Services</a></li>
+                <li><a href="index.html#form-section" class="contact tab">Contact us</a></li>
+            </ul>
+            <a href="#" id="signBtn">SignUp</a>
+            <a class="menu" onclick="navOpen()"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+    </header>
+
+    <!-- Side Navigation -->
+
+    <header id="side-navigation">
+        <nav id="side-nav">
+            <ul>
+                <li><a onclick="navClose()"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="index.html" class="home tab">Home</a></li>
+                <li><a href="aboutPage.html" class="about tab">About</a></li>
+                <li><a href="servicesPage.html" class="service tab">Services</a></li>
+                <li><a href="index.html#form-section" class="contact tab">Contact us</a></li>
+                <li><a href="#" class="sign tab">SignUp</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- Services -->
+
+    <header id="services-section">
+
+        <h1 class="topic">
+            What We Offer
+        </h1>
+
+        <div id="switcher">
+            <button class="toggler camera" onclick="camGenre()">Cameras</button>
+            <button class="toggler keypad" onclick="padGenre()">Keypads</button>
+            <button class="toggler detector" onclick="smokeGenre()">Detectors</button>
+            <button class="toggler selAll selected" onclick="allGenres()">All</button>
+        </div>
+
+        <div class="genre-container">
+
+            <div class="genre pad">
+                <img src="./imgs/keypad (8).jpg" alt="keypad1">
+                <div class="genre-text">
+                    <h4>Black Keypad</h4>
+                    <p>This is a black door Keypad, You have to use a PIN to open the door.</p>
+                </div>
+            </div>
+
+                <div class="genre cam">
+                    <img src="./imgs/camera (2).jpg" alt="camera1">
+                    <div class="genre-text">
+                        <h4>Surveillance Camera</h4>
+                        <p>This is a Surveillance Camera, You use it to watch people and things for Security.</p>
+                    </div>
+                </div>
+
+                <div class="genre cam">
+                    <img src="./imgs/camera (3).jpg" alt="camera2">
+                    <div class="genre-text">
+                        <h4>Business Camera</h4>
+                        <p>This is a Workspace Camera, You use it to watch people for work Security.</p>
+                    </div>
+                </div>
+
+                <div class="genre pad">
+                    <img src="./imgs/keypad (5).jpeg" alt="keypad2">
+                    <div class="genre-text">
+                        <h4>Black Keypad</h4>
+                        <p>This is a black door Keypad, You have to use a PIN to open the door.</p>
+                    </div>
+                </div>
+
+                <div class="genre smoke">
+                    <img src="./imgs/SmokeDetector (6).jpg" alt="smoke detector1">
+                    <div class="genre-text">
+                        <h4>Smoke Detector</h4>
+                        <p>This is a Smoke Detector, when there's a fire it detects the smoke and turns on a siren.</p>
+                    </div>
+                </div>
+
+                <div class="genre cam">
+                    <img src="./imgs/camera (4).jpg" alt="camera3">
+                    <div class="genre-text">
+                        <h4>Security Camera</h4>
+                        <p>This is a Home Security Camera, You use it for watching your Home for Security.</p>
+                    </div>
+                </div>
+
+                <div class="genre smoke">
+                    <img src="./imgs/SmokeDetector (4).jpeg" alt="smoke detector2">
+                    <div class="genre-text">
+                        <h4>Smoke Detector</h4>
+                        <p>This is a Smoke Detector, when there's a fire it detects the smoke and turns on a siren.</p>
+                    </div>
+                </div>
+
+                <div class="genre smoke">
+                    <img src="./imgs/SmokeDetector (7).png" alt="smoke detector3">
+                    <div class="genre-text">
+                        <h4>Smoke Detector</h4>
+                        <p>This is a black Smoke Detector, when there's a fire it detects the smoke and turns on a siren.</p>
+                    </div>
+                </div>
+
+                <div class="genre cam">
+                    <img src="./imgs/camera (9).jpg" alt="camera4">
+                    <div class="genre-text">
+                        <h4>Surveillance Camera</h4>
+                        <p>This is a Surveillance Camera, You use it to watch people and things for Security.</p>
+                    </div>
+                </div>
+
+                <div class="genre pad">
+                    <img src="./imgs/keypad (3).jpeg" alt="keypad3">
+                    <div class="genre-text">
+                        <h4>Black Keypad</h4>
+                        <p>This is a black door Keypad, You have to use a PIN to open the door.</p>
+                    </div>
+                </div>
+
+                <div class="genre pad">
+                    <img src="./imgs/keypad (9).jpg" alt="keypad2">
+                    <div class="genre-text">
+                        <h4>Black Keypad</h4>
+                        <p>This is a black door Keypad, You have to use a PIN to open the door.</p>
+                    </div>
+                </div>
+
+                <div class="genre cam">
+                    <img src="./imgs/camera (6).jpg" alt="camera5">
+                    <div class="genre-text">
+                        <h4>Security Camera</h4>
+                        <p>This is a Home Security Camera, You use it for watching your Home for Security.</p>
+                    </div>
+                </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="topFooter">
+            <h2 class="cName">Berimbolo Security</h2>
+
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <h3>&copy; 2024 Berimbolo Security. All rights reserved.</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+    
+</body>
+<script src="./js/servicesPageScript.js"></script>
+<script src="./js/navToggle.js"></script>
+</html>
